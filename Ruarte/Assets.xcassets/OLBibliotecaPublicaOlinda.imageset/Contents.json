@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "OLBibliotecaPublicaOlinda.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "OLBibliotecaPublicaOlinda 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "OLBibliotecaPublicaOlinda 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C101FED82C27E947000C0C44 /* TelaArtesVisuais.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101FED72C27E947000C0C44 /* TelaArtesVisuais.swift */; };
+		C126451C2C231EA8004A384A /* CarrosselArtesVisuais.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126451B2C231EA8004A384A /* CarrosselArtesVisuais.swift */; };
+		C127FE602C28BA0D00495619 /* TelaArtesCenicas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE5F2C28BA0D00495619 /* TelaArtesCenicas.swift */; };
+		C127FE622C28C28800495619 /* TelaCinema.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE612C28C28800495619 /* TelaCinema.swift */; };
+		C127FE642C28DDE900495619 /* TelaMusica.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE632C28DDE900495619 /* TelaMusica.swift */; };
+		C127FE662C28DE2F00495619 /* TelaLiteratura.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE652C28DE2F00495619 /* TelaLiteratura.swift */; };
+		C127FE682C28DE6F00495619 /* TelaRecife.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE672C28DE6F00495619 /* TelaRecife.swift */; };
+		C127FE6A2C28DE8300495619 /* TelaOlinda.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE692C28DE8300495619 /* TelaOlinda.swift */; };
+		C127FE6C2C28DE9100495619 /* TelaCaruaru.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE6B2C28DE9100495619 /* TelaCaruaru.swift */; };
+		C137051E2C249090001D9193 /* Cultura:Local.swift in Sources */ = {isa = PBXBuildFile; fileRef = C137051D2C249090001D9193 /* Cultura:Local.swift */; };
+		C13705202C25A4A2001D9193 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C137051F2C25A4A2001D9193 /* Category.swift */; };
+		C13705222C25A4F6001D9193 /* CarousselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13705212C25A4F6001D9193 /* CarousselView.swift */; };
+		C16D6E802CAF41F900CB86CC /* reserva.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D6E7F2CAF41F200CB86CC /* reserva.swift */; };
+		C187EE0A2C2E5BF7008D71DA /* MarkedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187EE092C2E5BF7008D71DA /* MarkedItems.swift */; };
+		C1A4DA332D84328E00519496 /* AnimatedCarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4DA322D84327400519496 /* AnimatedCarouselModel.swift */; };
+		C1AB75DD2C2C496C00764B87 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB75DC2C2C496C00764B87 /* Alert.swift */; };
+		C1E8F7E32CA785E200407AF6 /* TelaLugares.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8F7E22CA785E200407AF6 /* TelaLugares.swift */; };
+		C1E8F7E52CA7861D00407AF6 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8F7E42CA7861D00407AF6 /* PlaceModel.swift */; };
+		C1E8F7EA2CA8772000407AF6 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8F7E92CA8771300407AF6 /* LocationService.swift */; };
+		C1E8F7EE2CA8774200407AF6 /* SearchableMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8F7ED2CA8774200407AF6 /* SearchableMap.swift */; };
+		C1E8F7F02CA8775D00407AF6 /* SavedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8F7EF2CA8775D00407AF6 /* SavedLocation.swift */; };
+		C1E8F7F22CA87E2000407AF6 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8F7F12CA87E2000407AF6 /* Favorites.swift */; };
+		C1E8F7F42CA9D95B00407AF6 /* FirstWelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8F7F32CA9D94C00407AF6 /* FirstWelcomeScreen.swift */; };
+		D05F2ED52C2C56A0001D40C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05F2ED42C2C56A0001D40C9 /* ContentView.swift */; };
+		D073DE692C21CF6B003EA804 /* RuarteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073DE682C21CF6B003EA804 /* RuarteApp.swift */; };
+		D073DE6D2C21CF6E003EA804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D073DE6C2C21CF6E003EA804 /* Assets.xcassets */; };
+		D073DE702C21CF6E003EA804 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D073DE6F2C21CF6E003EA804 /* Preview Assets.xcassets */; };
+		D073DE772C244983003EA804 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073DE762C244983003EA804 /* StartView.swift */; };
+		D073DE802C247019003EA804 /* Ruina (1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = D073DE7F2C247019003EA804 /* Ruina (1).ttf */; };
+		D073DE822C2478D3003EA804 /* TelaParabensCacador.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073DE812C2478D3003EA804 /* TelaParabensCacador.swift */; };
+		D073DE842C2479C4003EA804 /* TelaParabensExplorador.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073DE832C2479C4003EA804 /* TelaParabensExplorador.swift */; };
+		D073DE862C247A2E003EA804 /* TelaParabensLendario.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073DE852C247A2E003EA804 /* TelaParabensLendario.swift */; };
+		F076F5142C24714000D7CB8C /* perfil-apreciador.swift in Sources */ = {isa = PBXBuildFile; fileRef = F076F5132C24714000D7CB8C /* perfil-apreciador.swift */; };
+		F076F5162C24A11100D7CB8C /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F076F5152C24A11100D7CB8C /* ProgressBar.swift */; };
+		F076F5182C2ADBD400D7CB8C /* marcados.swift in Sources */ = {isa = PBXBuildFile; fileRef = F076F5172C2ADBD400D7CB8C /* marcados.swift */; };
+		F076F51B2C2AF70800D7CB8C /* ProgressBarImagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F076F51A2C2AF70800D7CB8C /* ProgressBarImagem.swift */; };
+		F076F51D2C2B046200D7CB8C /* testeperfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F076F51C2C2B046200D7CB8C /* testeperfil.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C101FED72C27E947000C0C44 /* TelaArtesVisuais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaArtesVisuais.swift; sourceTree = "<group>"; };
+		C126451B2C231EA8004A384A /* CarrosselArtesVisuais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosselArtesVisuais.swift; sourceTree = "<group>"; };
+		C127FE5F2C28BA0D00495619 /* TelaArtesCenicas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaArtesCenicas.swift; sourceTree = "<group>"; };
+		C127FE612C28C28800495619 /* TelaCinema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCinema.swift; sourceTree = "<group>"; };
+		C127FE632C28DDE900495619 /* TelaMusica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaMusica.swift; sourceTree = "<group>"; };
+		C127FE652C28DE2F00495619 /* TelaLiteratura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaLiteratura.swift; sourceTree = "<group>"; };
+		C127FE672C28DE6F00495619 /* TelaRecife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaRecife.swift; sourceTree = "<group>"; };
+		C127FE692C28DE8300495619 /* TelaOlinda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaOlinda.swift; sourceTree = "<group>"; };
+		C127FE6B2C28DE9100495619 /* TelaCaruaru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCaruaru.swift; sourceTree = "<group>"; };
+		C137051D2C249090001D9193 /* Cultura:Local.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cultura:Local.swift"; sourceTree = "<group>"; };
+		C137051F2C25A4A2001D9193 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C13705212C25A4F6001D9193 /* CarousselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousselView.swift; sourceTree = "<group>"; };
+		C16D6E7F2CAF41F200CB86CC /* reserva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reserva.swift; sourceTree = "<group>"; };
+		C187EE092C2E5BF7008D71DA /* MarkedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkedItems.swift; sourceTree = "<group>"; };
+		C1A4DA322D84327400519496 /* AnimatedCarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCarouselModel.swift; sourceTree = "<group>"; };
+		C1AB75DC2C2C496C00764B87 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C1E8F7E22CA785E200407AF6 /* TelaLugares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaLugares.swift; sourceTree = "<group>"; };
+		C1E8F7E42CA7861D00407AF6 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		C1E8F7E92CA8771300407AF6 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		C1E8F7ED2CA8774200407AF6 /* SearchableMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableMap.swift; sourceTree = "<group>"; };
+		C1E8F7EF2CA8775D00407AF6 /* SavedLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocation.swift; sourceTree = "<group>"; };
+		C1E8F7F12CA87E2000407AF6 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		C1E8F7F32CA9D94C00407AF6 /* FirstWelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWelcomeScreen.swift; sourceTree = "<group>"; };
+		D011F1AC2C2E1450004D8EDA /* Ruarte.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ruarte.entitlements; sourceTree = "<group>"; };
+		D05F2ED42C2C56A0001D40C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D073DE652C21CF6B003EA804 /* Ruarte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruarte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D073DE682C21CF6B003EA804 /* RuarteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuarteApp.swift; sourceTree = "<group>"; };
+		D073DE6C2C21CF6E003EA804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D073DE6F2C21CF6E003EA804 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D073DE762C244983003EA804 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		D073DE7E2C246EFF003EA804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D073DE7F2C247019003EA804 /* Ruina (1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ruina (1).ttf"; path = "Ruarte/Ruina (1).ttf"; sourceTree = "<group>"; };
+		D073DE812C2478D3003EA804 /* TelaParabensCacador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaParabensCacador.swift; sourceTree = "<group>"; };
+		D073DE832C2479C4003EA804 /* TelaParabensExplorador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaParabensExplorador.swift; sourceTree = "<group>"; };
+		D073DE852C247A2E003EA804 /* TelaParabensLendario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaParabensLendario.swift; sourceTree = "<group>"; };
+		F076F5132C24714000D7CB8C /* perfil-apreciador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "perfil-apreciador.swift"; sourceTree = "<group>"; };
+		F076F5152C24A11100D7CB8C /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		F076F5172C2ADBD400D7CB8C /* marcados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcados.swift; sourceTree = "<group>"; };
+		F076F51A2C2AF70800D7CB8C /* ProgressBarImagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarImagem.swift; sourceTree = "<group>"; };
+		F076F51C2C2B046200D7CB8C /* testeperfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testeperfil.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D073DE622C21CF6B003EA804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C127FE6D2C2AFCCF00495619 /* TelasCategorias */ = {
+			isa = PBXGroup;
+			children = (
+				C101FED72C27E947000C0C44 /* TelaArtesVisuais.swift */,
+				C127FE5F2C28BA0D00495619 /* TelaArtesCenicas.swift */,
+				C127FE612C28C28800495619 /* TelaCinema.swift */,
+				C127FE632C28DDE900495619 /* TelaMusica.swift */,
+				C127FE652C28DE2F00495619 /* TelaLiteratura.swift */,
+				C127FE672C28DE6F00495619 /* TelaRecife.swift */,
+				C127FE692C28DE8300495619 /* TelaOlinda.swift */,
+				C127FE6B2C28DE9100495619 /* TelaCaruaru.swift */,
+			);
+			path = TelasCategorias;
+			sourceTree = "<group>";
+		};
+		C1E8F7E82CA876FE00407AF6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C16D6E7F2CAF41F200CB86CC /* reserva.swift */,
+				C1E8F7F12CA87E2000407AF6 /* Favorites.swift */,
+				C1E8F7EF2CA8775D00407AF6 /* SavedLocation.swift */,
+				C1E8F7ED2CA8774200407AF6 /* SearchableMap.swift */,
+				C1E8F7E92CA8771300407AF6 /* LocationService.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		D073DE5C2C21CF6B003EA804 = {
+			isa = PBXGroup;
+			children = (
+				D073DE7F2C247019003EA804 /* Ruina (1).ttf */,
+				D073DE672C21CF6B003EA804 /* Ruarte */,
+				D073DE662C21CF6B003EA804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D073DE662C21CF6B003EA804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D073DE652C21CF6B003EA804 /* Ruarte.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D073DE672C21CF6B003EA804 /* Ruarte */ = {
+			isa = PBXGroup;
+			children = (
+				C1A4DA322D84327400519496 /* AnimatedCarouselModel.swift */,
+				C1E8F7E82CA876FE00407AF6 /* Map */,
+				C1E8F7E42CA7861D00407AF6 /* PlaceModel.swift */,
+				D073DE762C244983003EA804 /* StartView.swift */,
+				C1E8F7F32CA9D94C00407AF6 /* FirstWelcomeScreen.swift */,
+				C1E8F7E22CA785E200407AF6 /* TelaLugares.swift */,
+				D011F1AC2C2E1450004D8EDA /* Ruarte.entitlements */,
+				D073DE7E2C246EFF003EA804 /* Info.plist */,
+				D05F2ED42C2C56A0001D40C9 /* ContentView.swift */,
+				C126451B2C231EA8004A384A /* CarrosselArtesVisuais.swift */,
+				C13705212C25A4F6001D9193 /* CarousselView.swift */,
+				C137051F2C25A4A2001D9193 /* Category.swift */,
+				C137051D2C249090001D9193 /* Cultura:Local.swift */,
+				C1AB75DC2C2C496C00764B87 /* Alert.swift */,
+				C127FE6D2C2AFCCF00495619 /* TelasCategorias */,
+				D073DE832C2479C4003EA804 /* TelaParabensExplorador.swift */,
+				D073DE812C2478D3003EA804 /* TelaParabensCacador.swift */,
+				D073DE852C247A2E003EA804 /* TelaParabensLendario.swift */,
+				D073DE682C21CF6B003EA804 /* RuarteApp.swift */,
+				F076F5132C24714000D7CB8C /* perfil-apreciador.swift */,
+				F076F51C2C2B046200D7CB8C /* testeperfil.swift */,
+				F076F5152C24A11100D7CB8C /* ProgressBar.swift */,
+				F076F51A2C2AF70800D7CB8C /* ProgressBarImagem.swift */,
+				F076F5172C2ADBD400D7CB8C /* marcados.swift */,
+				D073DE6C2C21CF6E003EA804 /* Assets.xcassets */,
+				D073DE6E2C21CF6E003EA804 /* Preview Content */,
+				C187EE092C2E5BF7008D71DA /* MarkedItems.swift */,
+			);
+			path = Ruarte;
+			sourceTree = "<group>";
+		};
+		D073DE6E2C21CF6E003EA804 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D073DE6F2C21CF6E003EA804 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D073DE642C21CF6B003EA804 /* Ruarte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D073DE732C21CF6E003EA804 /* Build configuration list for PBXNativeTarget "Ruarte" */;
+			buildPhases = (
+				D073DE612C21CF6B003EA804 /* Sources */,
+				D073DE622C21CF6B003EA804 /* Frameworks */,
+				D073DE632C21CF6B003EA804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ruarte;
+			productName = Ruarte;
+			productReference = D073DE652C21CF6B003EA804 /* Ruarte.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D073DE5D2C21CF6B003EA804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D073DE642C21CF6B003EA804 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = D073DE602C21CF6B003EA804 /* Build configuration list for PBXProject "Ruarte" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D073DE5C2C21CF6B003EA804;
+			productRefGroup = D073DE662C21CF6B003EA804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D073DE642C21CF6B003EA804 /* Ruarte */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D073DE632C21CF6B003EA804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D073DE702C21CF6E003EA804 /* Preview Assets.xcassets in Resources */,
+				D073DE802C247019003EA804 /* Ruina (1).ttf in Resources */,
+				D073DE6D2C21CF6E003EA804 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D073DE612C21CF6B003EA804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D073DE772C244983003EA804 /* StartView.swift in Sources */,
+				C126451C2C231EA8004A384A /* CarrosselArtesVisuais.swift in Sources */,
+				C1AB75DD2C2C496C00764B87 /* Alert.swift in Sources */,
+				C127FE662C28DE2F00495619 /* TelaLiteratura.swift in Sources */,
+				C13705202C25A4A2001D9193 /* Category.swift in Sources */,
+				C127FE6A2C28DE8300495619 /* TelaOlinda.swift in Sources */,
+				D05F2ED52C2C56A0001D40C9 /* ContentView.swift in Sources */,
+				C127FE682C28DE6F00495619 /* TelaRecife.swift in Sources */,
+				C127FE622C28C28800495619 /* TelaCinema.swift in Sources */,
+				C1E8F7F42CA9D95B00407AF6 /* FirstWelcomeScreen.swift in Sources */,
+				C13705222C25A4F6001D9193 /* CarousselView.swift in Sources */,
+				C127FE6C2C28DE9100495619 /* TelaCaruaru.swift in Sources */,
+				C127FE602C28BA0D00495619 /* TelaArtesCenicas.swift in Sources */,
+				D073DE692C21CF6B003EA804 /* RuarteApp.swift in Sources */,
+				C101FED82C27E947000C0C44 /* TelaArtesVisuais.swift in Sources */,
+				C137051E2C249090001D9193 /* Cultura:Local.swift in Sources */,
+				C1A4DA332D84328E00519496 /* AnimatedCarouselModel.swift in Sources */,
+				C127FE642C28DDE900495619 /* TelaMusica.swift in Sources */,
+				D073DE842C2479C4003EA804 /* TelaParabensExplorador.swift in Sources */,
+				D073DE692C21CF6B003EA804 /* RuarteApp.swift in Sources */,
+				D073DE862C247A2E003EA804 /* TelaParabensLendario.swift in Sources */,
+				D073DE822C2478D3003EA804 /* TelaParabensCacador.swift in Sources */,
+				F076F5162C24A11100D7CB8C /* ProgressBar.swift in Sources */,
+				C1E8F7EE2CA8774200407AF6 /* SearchableMap.swift in Sources */,
+				F076F5142C24714000D7CB8C /* perfil-apreciador.swift in Sources */,
+				C1E8F7EA2CA8772000407AF6 /* LocationService.swift in Sources */,
+				F076F51B2C2AF70800D7CB8C /* ProgressBarImagem.swift in Sources */,
+				C1E8F7E32CA785E200407AF6 /* TelaLugares.swift in Sources */,
+				C1E8F7F02CA8775D00407AF6 /* SavedLocation.swift in Sources */,
+				C1E8F7F22CA87E2000407AF6 /* Favorites.swift in Sources */,
+				C187EE0A2C2E5BF7008D71DA /* MarkedItems.swift in Sources */,
+				F076F51D2C2B046200D7CB8C /* testeperfil.swift in Sources */,
+				C16D6E802CAF41F900CB86CC /* reserva.swift in Sources */,
+				C1E8F7E52CA7861D00407AF6 /* PlaceModel.swift in Sources */,
+				D073DE692C21CF6B003EA804 /* RuarteApp.swift in Sources */,
+				F076F5182C2ADBD400D7CB8C /* marcados.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D073DE712C21CF6E003EA804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D073DE722C21CF6E003EA804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D073DE742C21CF6E003EA804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ruarte/Ruarte.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ruarte/Preview Content\"";
+				DEVELOPMENT_TEAM = D757SK75D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ruarte/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.anabeth.Ruarte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D073DE752C21CF6E003EA804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ruarte/Ruarte.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ruarte/Preview Content\"";
+				DEVELOPMENT_TEAM = D757SK75D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ruarte/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.anabeth.Ruarte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D073DE602C21CF6B003EA804 /* Build configuration list for PBXProject "Ruarte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D073DE712C21CF6E003EA804 /* Debug */,
+				D073DE722C21CF6E003EA804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D073DE732C21CF6E003EA804 /* Build configuration list for PBXNativeTarget "Ruarte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D073DE742C21CF6E003EA804 /* Debug */,
+				D073DE752C21CF6E003EA804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D073DE5D2C21CF6B003EA804 /* Project object */;
+}

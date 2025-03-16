@@ -52,29 +52,34 @@ struct TelaLugares: View {
         NavigationStack {
             
             ScrollViewReader { proxy in
-                ScrollView {
+                ScrollView(showsIndicators: false) {
                     VStack {
                         VStack(alignment: .leading) {
                             HStack {
                                 Text(place.title)
-                                    .font(.system(size: 28,weight: .bold , design: .rounded))
-                                    .frame(width: UIScreen.main.bounds.width * 0.76, height: UIScreen.main.bounds.height * 0.095)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.title)
+                                    .bold()
+//                                    .frame(maxWidth: UIScreen.main.bounds.width * 0.76, maxHeight: UIScreen.main.bounds.height * 0.095)
+//                                    .padding(.trailing, 50)
                                    
                                 Spacer()
+                                
                                 if place.beenVisited {
                                     
                                     Image("Selo")
-                                    
+                                        .padding()
                                         .scaleEffect(scale)
                                         .onAppear {
                                             withAnimation(.interpolatingSpring(stiffness: 100, damping: 5)) {
                                                 scale = 3
                                             }
                                             withAnimation(.interpolatingSpring(stiffness: 100, damping: 5).delay(0.1)) {
-                                                scale = 1.0
+                                                scale = 1.5
                                             }
                                         }
                                 }
+                                    
                             }
                             HStack {
                                 Button(action: {
@@ -194,7 +199,7 @@ struct TelaLugares: View {
                             ZStack{
                                 Rectangle()
                                     .frame(maxWidth: UIScreen.main.bounds.width * 0.76)
-                                    .frame (height: UIScreen.main.bounds.height * 0.03)
+                                    .frame (height: UIScreen.main.bounds.height * 0.07)
                                     .foregroundStyle(place.beenVisited ? .gray : .orangeRuart)
                                     .cornerRadius(10)
                                 //                                .clipShape(RoundedRectangle(cornerRadius: 10))
@@ -205,6 +210,7 @@ struct TelaLugares: View {
                         })
                         .padding()
                     }
+                    .padding(.top)
                     .id(0)
                 }
                 .navigationBarTitleDisplayMode(.inline)

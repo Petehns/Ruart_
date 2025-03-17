@@ -178,7 +178,7 @@ struct TelaLugares: View {
                             
                                 .frame(width: UIScreen.main.bounds.width * 0.92, alignment: .leading)
                             Spacer()
-                            Text(place.description)
+                            Text(place.descriptionPlace)
                                 .font(.system(size: 17,weight: .regular ,design: .rounded))
                                 .frame(width: UIScreen.main.bounds.width * 0.92, alignment: .leading)
                         }
@@ -243,7 +243,7 @@ struct TelaLugares: View {
     }
 }
 #Preview {
-    let place = PlaceModel(title: "Place Name", description: "Location Street - Recife", navTitle: "This place is awesome", location: "Place", images: ["https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,width=960,height=99999,fit=scale-down/wp-content/uploads/2019/10/instituto-ricardo-brennand13.jpg","https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,width=960,height=99999,fit=scale-down/wp-content/uploads/2019/10/instituto-ricardo-brennand12.jpg", "https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,width=960,height=99999,fit=scale-down/wp-content/uploads/2019/10/instituto-ricardo-brennand2.jpg"], beenVisited: false, isFavorite: false, category: "Artes VIsuais", category2: "Recife", longitude: -3.12452, latitude: -3.6)
+    let place = PlaceModel(title: "Place Name", descriptionPlace: "Location Street - Recife", navTitle: "This place is awesome", location: "Place", images: ["https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,width=960,height=99999,fit=scale-down/wp-content/uploads/2019/10/instituto-ricardo-brennand13.jpg","https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,width=960,height=99999,fit=scale-down/wp-content/uploads/2019/10/instituto-ricardo-brennand12.jpg", "https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,width=960,height=99999,fit=scale-down/wp-content/uploads/2019/10/instituto-ricardo-brennand2.jpg"], beenVisited: false, isFavorite: false, category: "Artes VIsuais", category2: "Recife", longitude: -3.12452, latitude: -3.6)
     
 //    TelaLugares(place: $place)
 //        .environmentObject(MarkedItems())

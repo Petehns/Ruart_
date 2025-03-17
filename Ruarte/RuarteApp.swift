@@ -15,5 +15,6 @@ struct RuarteApp: App {
             StartView()
                 .environmentObject(markedItems)
         }
+        .modelContainer(for: PlaceModel.self)
     }
 }

@@ -22,6 +22,7 @@
 		C16D6E802CAF41F900CB86CC /* reserva.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D6E7F2CAF41F200CB86CC /* reserva.swift */; };
 		C187EE0A2C2E5BF7008D71DA /* MarkedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187EE092C2E5BF7008D71DA /* MarkedItems.swift */; };
 		C1A4DA332D84328E00519496 /* AnimatedCarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4DA322D84327400519496 /* AnimatedCarouselModel.swift */; };
+		C1A4DA352D8867E500519496 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4DA342D8867E200519496 /* Tests.swift */; };
 		C1AB75DD2C2C496C00764B87 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB75DC2C2C496C00764B87 /* Alert.swift */; };
 		C1E8F7E32CA785E200407AF6 /* TelaLugares.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8F7E22CA785E200407AF6 /* TelaLugares.swift */; };
 		C1E8F7E52CA7861D00407AF6 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8F7E42CA7861D00407AF6 /* PlaceModel.swift */; };
@@ -62,6 +63,7 @@
 		C16D6E7F2CAF41F200CB86CC /* reserva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reserva.swift; sourceTree = "<group>"; };
 		C187EE092C2E5BF7008D71DA /* MarkedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkedItems.swift; sourceTree = "<group>"; };
 		C1A4DA322D84327400519496 /* AnimatedCarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCarouselModel.swift; sourceTree = "<group>"; };
+		C1A4DA342D8867E200519496 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		C1AB75DC2C2C496C00764B87 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		C1E8F7E22CA785E200407AF6 /* TelaLugares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaLugares.swift; sourceTree = "<group>"; };
 		C1E8F7E42CA7861D00407AF6 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
@@ -147,6 +149,8 @@
 		D073DE672C21CF6B003EA804 /* Ruarte */ = {
 			isa = PBXGroup;
 			children = (
+				D073DE682C21CF6B003EA804 /* RuarteApp.swift */,
+				C1A4DA342D8867E200519496 /* Tests.swift */,
 				C1A4DA322D84327400519496 /* AnimatedCarouselModel.swift */,
 				C1E8F7E82CA876FE00407AF6 /* Map */,
 				C1E8F7E42CA7861D00407AF6 /* PlaceModel.swift */,
@@ -165,7 +169,6 @@
 				D073DE832C2479C4003EA804 /* TelaParabensExplorador.swift */,
 				D073DE812C2478D3003EA804 /* TelaParabensCacador.swift */,
 				D073DE852C247A2E003EA804 /* TelaParabensLendario.swift */,
-				D073DE682C21CF6B003EA804 /* RuarteApp.swift */,
 				F076F5132C24714000D7CB8C /* perfil-apreciador.swift */,
 				F076F51C2C2B046200D7CB8C /* testeperfil.swift */,
 				F076F5152C24A11100D7CB8C /* ProgressBar.swift */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A4DA352D8867E500519496 /* Tests.swift in Sources */,
 				D073DE772C244983003EA804 /* StartView.swift in Sources */,
 				C126451C2C231EA8004A384A /* CarrosselArtesVisuais.swift in Sources */,
 				C1AB75DD2C2C496C00764B87 /* Alert.swift in Sources */,

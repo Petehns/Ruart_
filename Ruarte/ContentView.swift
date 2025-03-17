@@ -21,9 +21,9 @@ struct ContentView: View {
                     ZStack {
                         Image(images[index])
                             .resizable()
-                            .scaledToFit()
-                            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                             .scaledToFill()
+                            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                            .ignoresSafeArea()
                         if index == 2 {
                             VStack {
                                 Spacer()
@@ -148,7 +148,7 @@ struct NavigationBar: View {
                 }
             }
         }
-        
+         
         .searchable(text: $searchText, isPresented: $searchIsActive)
     }
 }

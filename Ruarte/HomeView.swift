@@ -193,14 +193,19 @@ struct CarrosselArtesVisuais: View {
                                     }
                                     
                                 })
-                            
+                            Divider()
                                                  
                          
                             CarousselView(caroussel: visualArt)
+                            Divider()
                             CarousselView(caroussel: performingArts)
+                            Divider()
                             CarousselView(caroussel: cinema)
+                            Divider()
                             CarousselView(caroussel: music)
+                            Divider()
                             CarousselView(caroussel: literature)
+                            
                         }
                     case .cidade:
                         VStack {

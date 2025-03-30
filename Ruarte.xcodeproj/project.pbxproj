@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C101FED82C27E947000C0C44 /* TelaArtesVisuais.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101FED72C27E947000C0C44 /* TelaArtesVisuais.swift */; };
-		C126451C2C231EA8004A384A /* CarrosselArtesVisuais.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126451B2C231EA8004A384A /* CarrosselArtesVisuais.swift */; };
+		C126451C2C231EA8004A384A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126451B2C231EA8004A384A /* HomeView.swift */; };
 		C127FE602C28BA0D00495619 /* TelaArtesCenicas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE5F2C28BA0D00495619 /* TelaArtesCenicas.swift */; };
 		C127FE622C28C28800495619 /* TelaCinema.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE612C28C28800495619 /* TelaCinema.swift */; };
 		C127FE642C28DDE900495619 /* TelaMusica.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127FE632C28DDE900495619 /* TelaMusica.swift */; };
@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		C101FED72C27E947000C0C44 /* TelaArtesVisuais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaArtesVisuais.swift; sourceTree = "<group>"; };
-		C126451B2C231EA8004A384A /* CarrosselArtesVisuais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosselArtesVisuais.swift; sourceTree = "<group>"; };
+		C126451B2C231EA8004A384A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C127FE5F2C28BA0D00495619 /* TelaArtesCenicas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaArtesCenicas.swift; sourceTree = "<group>"; };
 		C127FE612C28C28800495619 /* TelaCinema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCinema.swift; sourceTree = "<group>"; };
 		C127FE632C28DDE900495619 /* TelaMusica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaMusica.swift; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 				D011F1AC2C2E1450004D8EDA /* Ruarte.entitlements */,
 				D073DE7E2C246EFF003EA804 /* Info.plist */,
 				D05F2ED42C2C56A0001D40C9 /* ContentView.swift */,
-				C126451B2C231EA8004A384A /* CarrosselArtesVisuais.swift */,
+				C126451B2C231EA8004A384A /* HomeView.swift */,
 				C13705212C25A4F6001D9193 /* CarousselView.swift */,
 				C137051F2C25A4A2001D9193 /* Category.swift */,
 				C137051D2C249090001D9193 /* Cultura:Local.swift */,
@@ -262,7 +262,7 @@
 			files = (
 				C1A4DA352D8867E500519496 /* Tests.swift in Sources */,
 				D073DE772C244983003EA804 /* StartView.swift in Sources */,
-				C126451C2C231EA8004A384A /* CarrosselArtesVisuais.swift in Sources */,
+				C126451C2C231EA8004A384A /* HomeView.swift in Sources */,
 				C1AB75DD2C2C496C00764B87 /* Alert.swift in Sources */,
 				C127FE662C28DE2F00495619 /* TelaLiteratura.swift in Sources */,
 				C13705202C25A4A2001D9193 /* Category.swift in Sources */,

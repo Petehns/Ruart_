@@ -20,6 +20,9 @@
 		C13705202C25A4A2001D9193 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C137051F2C25A4A2001D9193 /* Category.swift */; };
 		C13705222C25A4F6001D9193 /* CarousselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13705212C25A4F6001D9193 /* CarousselView.swift */; };
 		C16D6E802CAF41F900CB86CC /* reserva.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D6E7F2CAF41F200CB86CC /* reserva.swift */; };
+		C1767AFA2D9D4E020076FDFD /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1767AF92D9D4DFD0076FDFD /* ArtView.swift */; };
+		C1767AFC2D9D4F060076FDFD /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1767AFB2D9D4EFD0076FDFD /* CityView.swift */; };
+		C1767AFE2D9D755B0076FDFD /* CarousselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1767AFD2D9D754C0076FDFD /* CarousselItem.swift */; };
 		C187EE0A2C2E5BF7008D71DA /* MarkedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187EE092C2E5BF7008D71DA /* MarkedItems.swift */; };
 		C1A4DA332D84328E00519496 /* AnimatedCarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4DA322D84327400519496 /* AnimatedCarouselModel.swift */; };
 		C1A4DA352D8867E500519496 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4DA342D8867E200519496 /* Tests.swift */; };
@@ -61,6 +64,9 @@
 		C137051F2C25A4A2001D9193 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		C13705212C25A4F6001D9193 /* CarousselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousselView.swift; sourceTree = "<group>"; };
 		C16D6E7F2CAF41F200CB86CC /* reserva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reserva.swift; sourceTree = "<group>"; };
+		C1767AF92D9D4DFD0076FDFD /* ArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtView.swift; sourceTree = "<group>"; };
+		C1767AFB2D9D4EFD0076FDFD /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		C1767AFD2D9D754C0076FDFD /* CarousselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousselItem.swift; sourceTree = "<group>"; };
 		C187EE092C2E5BF7008D71DA /* MarkedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkedItems.swift; sourceTree = "<group>"; };
 		C1A4DA322D84327400519496 /* AnimatedCarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCarouselModel.swift; sourceTree = "<group>"; };
 		C1A4DA342D8867E200519496 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 		D073DE672C21CF6B003EA804 /* Ruarte */ = {
 			isa = PBXGroup;
 			children = (
+				C1767AFD2D9D754C0076FDFD /* CarousselItem.swift */,
+				C1767AFB2D9D4EFD0076FDFD /* CityView.swift */,
+				C1767AF92D9D4DFD0076FDFD /* ArtView.swift */,
 				D073DE682C21CF6B003EA804 /* RuarteApp.swift */,
 				C1A4DA342D8867E200519496 /* Tests.swift */,
 				C1A4DA322D84327400519496 /* AnimatedCarouselModel.swift */,
@@ -266,6 +275,7 @@
 				C1AB75DD2C2C496C00764B87 /* Alert.swift in Sources */,
 				C127FE662C28DE2F00495619 /* TelaLiteratura.swift in Sources */,
 				C13705202C25A4A2001D9193 /* Category.swift in Sources */,
+				C1767AFE2D9D755B0076FDFD /* CarousselItem.swift in Sources */,
 				C127FE6A2C28DE8300495619 /* TelaOlinda.swift in Sources */,
 				D05F2ED52C2C56A0001D40C9 /* ContentView.swift in Sources */,
 				C127FE682C28DE6F00495619 /* TelaRecife.swift in Sources */,
@@ -285,11 +295,13 @@
 				D073DE822C2478D3003EA804 /* TelaParabensCacador.swift in Sources */,
 				F076F5162C24A11100D7CB8C /* ProgressBar.swift in Sources */,
 				C1E8F7EE2CA8774200407AF6 /* SearchableMap.swift in Sources */,
+				C1767AFC2D9D4F060076FDFD /* CityView.swift in Sources */,
 				F076F5142C24714000D7CB8C /* perfil-apreciador.swift in Sources */,
 				C1E8F7EA2CA8772000407AF6 /* LocationService.swift in Sources */,
 				F076F51B2C2AF70800D7CB8C /* ProgressBarImagem.swift in Sources */,
 				C1E8F7E32CA785E200407AF6 /* TelaLugares.swift in Sources */,
 				C1E8F7F02CA8775D00407AF6 /* SavedLocation.swift in Sources */,
+				C1767AFA2D9D4E020076FDFD /* ArtView.swift in Sources */,
 				C1E8F7F22CA87E2000407AF6 /* Favorites.swift in Sources */,
 				C187EE0A2C2E5BF7008D71DA /* MarkedItems.swift in Sources */,
 				F076F51D2C2B046200D7CB8C /* testeperfil.swift in Sources */,

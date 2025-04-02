@@ -14,6 +14,8 @@ struct CarousselView<Destination: View>: View  {
     @AppStorage("statusBotao") var statusBotao: Bool = true
     @AppStorage("statusCurtir") var isHeartFilled = false
 //    let allPlaces: [PlaceModel]
+//    @Bindable var place: PlaceModel
+//    var place: [PlaceModel]
     var body: some View {
         NavigationStack{
             HStack{
@@ -53,16 +55,16 @@ struct CarousselView<Destination: View>: View  {
                                             }
                                             .cornerRadius(10.0)
                                             .clipped()
-                                            HStack{
-                                                Spacer()
-                                                VStack{
-                                                    if statusBotao == false{
-                                                        Image("Selo")
-                                                        Spacer()
-                                                    }
-                                                }
-                                            }
-                                            .padding(.top, 2)
+//                                            HStack{
+//                                                Spacer()
+//                                                VStack{
+//                                                    if place.beenVisited{
+//                                                        Image("Selo")
+//                                                        Spacer()
+//                                                    }
+//                                                }
+//                                            }
+//                                            .padding(.top, 2)
                                         }
 
                                         Spacer()
@@ -81,15 +83,10 @@ struct CarousselView<Destination: View>: View  {
                                             HStack {
                                                
                                                 Button(action:{
-                                                    isHeartFilled.toggle()
+//                                                    place.isFavorite.toggle()
                                                 }, label: {
-                                                    if isHeartFilled == false{
-                                                        Image(systemName: "star")
-                                                            .foregroundStyle(Color.pretobranco)
-                                                    }else{
-                                                        Image(systemName: "star.fill")
-                                                            .foregroundStyle(Color.amarelin)
-                                                    }
+//                                                    Image(systemName: place.isFavorite ? "star.fill" : "star")
+//                                                    .foregroundStyle(place.isFavorite ? Color.amarelin : Color.pretobranco)
                                                 })
                                                 .padding(.bottom, 1)
                                                 HStack {
@@ -136,16 +133,16 @@ struct CarousselView<Destination: View>: View  {
     
 }
 
-#Preview {
-    CarousselView(caroussel: Category(name:"Artes Visuais", images: [
-        "https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,width=960,height=99999,fit=scale-down/wp-content/uploads/2019/10/instituto-ricardo-brennand13.jpg",
-        "CAMuseudoEstadodePernambuco",
-        "CAMuseudeArteContemporaneadePernambuco",
-        "CAFeiradeCaruaru"
-    ], titles: ["Ricardo Brennand", "", "", "", ""], destinationA: TelaArtesVisuais(),
-       destinationB: [
-        AnyView(EmptyView()),  AnyView(EmptyView()),  AnyView(EmptyView()),  AnyView(EmptyView()),  AnyView(EmptyView())
-       ], latitudeCarroussel: [0.0, 0.0, 0.0, 0.0, 0.0], longitudeCarroussel: [0.0, 0.0, 0.0, 0.0, 0.0], category: [""], categoryB: [""]
-                                     )
-                )
-}
+//#Preview {
+//    CarousselView(caroussel: Category(name:"Artes Visuais", images: [
+//        "https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,width=960,height=99999,fit=scale-down/wp-content/uploads/2019/10/instituto-ricardo-brennand13.jpg",
+//        "CAMuseudoEstadodePernambuco",
+//        "CAMuseudeArteContemporaneadePernambuco",
+//        "CAFeiradeCaruaru"
+//    ], titles: ["Ricardo Brennand", "", "", "", ""], destinationA: TelaArtesVisuais(),
+//       destinationB: [
+//        AnyView(EmptyView()),  AnyView(EmptyView()),  AnyView(EmptyView()),  AnyView(EmptyView()),  AnyView(EmptyView())
+//       ], latitudeCarroussel: [0.0, 0.0, 0.0, 0.0, 0.0], longitudeCarroussel: [0.0, 0.0, 0.0, 0.0, 0.0], category: [""], categoryB: [""]
+//                                     )
+//                )
+//}

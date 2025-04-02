@@ -46,7 +46,7 @@ struct TelaLugares: View {
     @State var teste: Int = 0
     @State private var items = Array(1...100)
     @State private var scale: CGFloat = 0.0
-    @State var place: PlaceModel
+    @Bindable var place: PlaceModel
     @ObservedObject var viewModel: PlaceViewModel
     var body: some View {
         NavigationStack {
@@ -183,7 +183,8 @@ struct TelaLugares: View {
                                 .frame(width: UIScreen.main.bounds.width * 0.92, alignment: .leading)
                         }
                         Button(action: {
-                            viewModel.toggleBeenVisited(for: place)
+                            place.beenVisited.toggle()
+//                            viewModel.toggleBeenVisited(for: place)
 //                            place.beenVisited.toggle()
 //                            if place.beenVisited {
 //                                selos.counter = selos.counter + 1
@@ -221,13 +222,14 @@ struct TelaLugares: View {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         
                         Button(action: {
-                            viewModel.toggleIsFavorite(for: place)
+                            place.isFavorite.toggle()
+//                            viewModel.toggleIsFavorite(for: place)
 //                            place.isFavorite.toggle()
 //                            let item = MarkedItem(name: "", imageName: "marMuseudoEstadodePernambuco")
 //                            if place.isFavorite {
 //                                markedItems.addItem(item)
 //                            } else {markedItems.removeItem(item)
-//                                
+//
 //                            }
                         }) {
                             Image(systemName: place.isFavorite ? "star.fill" : "star")

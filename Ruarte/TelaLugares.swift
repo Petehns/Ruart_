@@ -233,7 +233,7 @@ struct TelaLugares: View {
 //                            }
                         }) {
                             Image(systemName: place.isFavorite ? "star.fill" : "star")
-                            .foregroundStyle(Color.white)                        }
+                            .foregroundStyle(place.isFavorite ? Color.amarelin : Color.white)                        }
                     }
                 }
                 .toolbarColorScheme(.dark, for: .navigationBar)

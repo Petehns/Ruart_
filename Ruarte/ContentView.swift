@@ -173,7 +173,7 @@ struct TabBar: View {
                 
                 Marcados(allPlaces: allPlaces)
                     .tabItem {
-                        Label("Marcados", systemImage: "bookmark")
+                        Label("Favoritos", systemImage: "Star.fill")
                     }
                     .toolbarBackground(Color.blueRuart, for: .tabBar)
                     .toolbarBackground(.visible, for: .tabBar)
